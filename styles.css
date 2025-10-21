@@ -1,0 +1,126 @@
+
+body {
+    background:rgb(230, 234, 219);
+    color: #e7d8d8;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(48, 76%, 53%);
+    padding: 15px 40px;
+}
+
+header .logo img {
+    height: 50px;
+    border-radius: 8px;
+}
+
+header .sign a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+body .navigation-bar a:hover {
+    color: #ececee;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+main h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+main .buildings {
+    list-style-type: none;
+    display: flex;         
+    justify-content: center;
+    gap: 40px;         
+    padding: 100px;
+    margin: 10px;
+}
+
+main .buildings > li {
+    position: relative;     
+}
+
+main .buildings > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #222222;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: block; 
+    background:rgb(248, 248, 247);
+    height: 150px;
+    width: 180px;
+    text-align: center;
+    align-content: center;  
+}
+
+main .buildings > li > a:hover {
+    background: #8ca0d3;
+    color: #3800c6;
+}
+
+main .information {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 100%;        
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+
+main .buildings > li:hover .information {
+    display: block;
+    color: #1508ca;
+    background:#7ed0db;
+    font-size: 18px;
+}
+
+.navigation-bar{
+    background-color: #4a5558;
+    display: inline-block;
+    width: 400px;
+    justify-content: space-between;
+    height: 35px;
+    border-end-end-radius: 30px;
+    align-content: center;
+
+}
+nav a{
+    margin: 35px;
+    text-decoration: none;
+    color: #ff9400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
